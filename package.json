@@ -1,6 +1,6 @@
 {
   "name": "btob",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Binary to binary encoding tool",
   "main": "src/index.js",
   "bin": {
