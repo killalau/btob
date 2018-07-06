@@ -30,3 +30,5 @@ program
 
     } catch (err) { programTerminate(err) }
   });
+
+program.parse(process.argv);
