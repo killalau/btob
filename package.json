@@ -1,0 +1,30 @@
+{
+  "name": "btob",
+  "version": "0.1.0",
+  "description": "Binary to binary encoding tool",
+  "main": "src/index.js",
+  "bin": {
+    "btob": "bin/btob"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killalau/btob.git"
+  },
+  "author": "Franky Lau <killalau1988@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/killalau/btob/issues"
+  },
+  "homepage": "https://github.com/killalau/btob#readme",
+  "dependencies": {
+    "commander": "^2.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
